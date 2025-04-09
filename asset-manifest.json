@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/animated-slider/static/css/main.dfad0fc5.css",
+    "main.js": "/animated-slider/static/js/main.c45ac75a.js",
+    "static/media/burger.png": "/animated-slider/static/media/burger.8ad8b3315a5c5fedc72c.png",
+    "static/media/doner.png": "/animated-slider/static/media/doner.e95d2bc62baed9d4a8b6.png",
+    "static/media/shawarma.png": "/animated-slider/static/media/shawarma.168f2f6127ae3932443a.png",
+    "static/media/meat.png": "/animated-slider/static/media/meat.6b66327afa6e77709393.png",
+    "static/media/burger-card.png": "/animated-slider/static/media/burger-card.cda36add009afe633e39.png",
+    "static/media/onion.png": "/animated-slider/static/media/onion.476d848fce160badd28c.png",
+    "static/media/shawarma-card.png": "/animated-slider/static/media/shawarma-card.d0bafad975f3d3775a14.png",
+    "static/media/doner-card.png": "/animated-slider/static/media/doner-card.7bb9233db2cd9f434128.png",
+    "static/media/tomato.png": "/animated-slider/static/media/tomato.43e8c31ed6a11f479bb4.png",
+    "static/media/cucumber.png": "/animated-slider/static/media/cucumber.11f3a10761ed8d65935c.png",
+    "static/media/slick.svg": "/animated-slider/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/animated-slider/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/animated-slider/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/animated-slider/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/animated-slider/index.html",
+    "main.dfad0fc5.css.map": "/animated-slider/static/css/main.dfad0fc5.css.map",
+    "main.c45ac75a.js.map": "/animated-slider/static/js/main.c45ac75a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfad0fc5.css",
+    "static/js/main.c45ac75a.js"
+  ]
+}
