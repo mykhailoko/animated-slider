@@ -1,0 +1,125 @@
+img {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.slick-prev,
+.slick-next {
+  color: transparent;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: transparent;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.slick-dots li button:before {
+  color: white;
+}
+
+.back {
+  background-color: #006845;
+  /*538c17*/
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.text-back {
+  color: white;
+  /*f6ba52*/
+  font-size: 210px;
+  text-align: center;
+  letter-spacing: 10px;
+
+  opacity: 1;
+  transition: all 3s;
+  filter: blur(5px);
+  transform: translateX(-100%);
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+  .text-back {
+    transition: none;
+  }
+}
+
+.back-all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  margin-top: 2%;
+}
+
+.all-ingridients {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+}
+
+.ingridients {
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes spin {
+  0% {
+    scale: 0.92;
+  }
+  50% {
+    scale: 1.0;
+  }
+  100% {
+    scale: 0.92;
+  }
+}
+
+#meat {
+  padding-top: 230px;
+  transform: translateX(-30%);
+  filter: blur(3px);
+}
+
+#onion {
+  transform: translateX(30%);
+  padding-top: 40px;
+}
+
+#cucumber {
+  padding-top: 60px;
+  margin-right: 80px;
+}
+
+#tomato {
+  transform: translateX(40%);
+  padding-top: 190px;
+  filter: blur(3px);
+}

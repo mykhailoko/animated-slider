@@ -1,0 +1,60 @@
+.navbar {
+    background-color: #006845;
+    width: 100%;
+    justify-content: center;
+    padding-top: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-one {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.nav-one:hover {
+    transform: scale(1.1);
+}
+
+.cart {
+    display: flex;
+    margin-right: 150px;
+    position: relative;
+}
+
+.cart-icon {
+    cursor: pointer;
+}
+
+.counter {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 85%;
+}
